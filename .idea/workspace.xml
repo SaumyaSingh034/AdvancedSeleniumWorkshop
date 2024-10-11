@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02b1a29b-f926-43bc-a80f-147df3175e89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/AlertsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/CheckBoxesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/DropDownPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/FormAuthenticationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/LandingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/LoggedInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/beginner/NegativeTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/beginner/PositiveTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/base/BrowserDriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/base/NewBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/testlayer/Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/testlayer/CheckBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/testlayer/DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/NegativeTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/PositiveTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/testlayer/CheckLinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/testlayer/SeleniumPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +37,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/saumya.singh/Desktop/mobile-automation-appium-2.0-main/mobile-appium-multi-module/AdvanceSeleniumConcepts/src/main/java/org/example/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Alerts.alertPractice">
+  <component name="RunManager" selected="TestNG.CheckLinks.testAmazonLinks">
     <configuration name="Alerts.alertPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvanceSeleniumConcepts" />
       <extension name="coverage">
@@ -76,7 +56,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBoxes" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckLinks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvanceSeleniumConcepts" />
       <extension name="coverage">
         <pattern>
@@ -85,7 +65,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.testlayer" />
-      <option name="MAIN_CLASS_NAME" value="com.test.testlayer.CheckBoxes" />
+      <option name="MAIN_CLASS_NAME" value="com.test.testlayer.CheckLinks" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -93,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBoxes.selectCheckBoxes" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckLinks.testAmazonLinks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvanceSeleniumConcepts" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +82,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.testlayer" />
-      <option name="MAIN_CLASS_NAME" value="com.test.testlayer.CheckBoxes" />
-      <option name="METHOD_NAME" value="selectCheckBoxes" />
+      <option name="MAIN_CLASS_NAME" value="com.test.testlayer.CheckLinks" />
+      <option name="METHOD_NAME" value="testAmazonLinks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvanceSeleniumConcepts" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +100,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.testlayer" />
-      <option name="MAIN_CLASS_NAME" value="com.test.testlayer.DropDown" />
+      <option name="MAIN_CLASS_NAME" value="com.test.testlayer.SeleniumPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -128,17 +108,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumPractice.multipleWindows" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvanceSeleniumConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beginner.*" />
+          <option name="PATTERN" value="com.test.testlayer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="beginner" />
-      <option name="MAIN_CLASS_NAME" value="beginner.PositiveTestCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.test.testlayer" />
+      <option name="MAIN_CLASS_NAME" value="com.test.testlayer.SeleniumPractice" />
+      <option name="METHOD_NAME" value="multipleWindows" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -147,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckLinks.testAmazonLinks" />
+        <item itemvalue="TestNG.CheckLinks" />
+        <item itemvalue="TestNG.SeleniumPractice" />
+        <item itemvalue="TestNG.SeleniumPractice.multipleWindows" />
         <item itemvalue="TestNG.Alerts.alertPractice" />
-        <item itemvalue="TestNG.DropDown" />
-        <item itemvalue="TestNG.CheckBoxes" />
-        <item itemvalue="TestNG.PositiveTestCase" />
-        <item itemvalue="TestNG.CheckBoxes.selectCheckBoxes" />
       </list>
     </recent_temporary>
   </component>
@@ -175,11 +156,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/test/base/NewBaseTest.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/test/base/BrowserDriverFactory.java</url>
           <line>21</line>
           <option name="timeStamp" value="4" />
@@ -188,6 +164,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/test/base/BaseTest.java</url>
           <line>26</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/test/testlayer/SeleniumPractice.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/test/testlayer/CheckLinks.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

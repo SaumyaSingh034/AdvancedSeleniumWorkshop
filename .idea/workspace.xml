@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02b1a29b-f926-43bc-a80f-147df3175e89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/testlayer/CheckLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/testlayer/SeleniumPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/testlayer/ExcelReadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/testlayer/Listerners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/testlayer/RetryAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/saumya.singh/Desktop/mobile-automation-appium-2.0-main/mobile-appium-multi-module/AdvanceSeleniumConcepts/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "onboarding.tips.debug.path": "/Users/saumya.singh/Desktop/mobile-automation-appium-2.0-main/mobile-appium-multi-module/AdvanceSeleniumConcepts/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.CheckLinks.testAmazonLinks">
     <configuration name="Alerts.alertPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvanceSeleniumConcepts" />
@@ -162,7 +166,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/test/base/BaseTest.java</url>
-          <line>26</line>
+          <line>27</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
